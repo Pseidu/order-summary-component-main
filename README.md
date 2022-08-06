@@ -28,7 +28,7 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 ### Links
-- Solution URL: [https://github.com/Pseidu/order-summary-component-main.git]
+- Solution URL: [https://github.com/Pseidu/order-summary-component-main.git](https://github.com/Pseidu/order-summary-component-main.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
