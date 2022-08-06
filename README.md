@@ -25,7 +25,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![./screenshot.png](./screenshot.jpg)
+![./screenshot.png](./screenshot.png)
 
 ### Links
 - Solution URL: [https://github.com/Pseidu/order-summary-component-main.git](https://github.com/Pseidu/order-summary-component-main.git)
