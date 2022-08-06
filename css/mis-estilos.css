@@ -1,0 +1,201 @@
+:root {
+--paleBlue: hsl(225, 100%, 94%); /*background of body*/
+
+--veryPaleBlue: hsl(225, 100%, 98%); /*background of plan & price*/
+--brightBlue: hsl(245, 75%, 52%); /*proceed button background*/
+--buttonHover: #766CF1; /*proceed button background hover*/
+
+--desaturatedBlue: hsl(224, 23%, 55%); /*cancel button, font color*/
+--darkBlue: hsl(223, 47%, 23%); /*dark font color*/
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+
+    background-color: var(--paleBlue);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    padding: 71px 0;
+}
+main {
+    width: 327px;
+    height: 567px;
+    margin: auto;
+    
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero-image{
+    max-width: 100%;
+}
+
+.div-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 900;
+    margin-top: 32px;
+    color: var(--darkBlue);
+}
+
+p.description {
+    margin-top: 16px;
+    width: 88%;
+    color: var(--desaturatedBlue);
+    text-align: center;
+    line-height: 1.6em;
+}
+
+.div-plan {
+    display: flex;
+    align-items: center;
+
+    margin-top: 24px;
+    padding: 14px 20px;
+    background-color: var(--veryPaleBlue);
+    border-radius: 15px;
+}
+
+.div-plan img {
+    display: inline-block;
+}
+
+.div-plan div {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+p.selected-plan {
+    color: var(--darkBlue);
+    font-size: 0.9em;
+    font-weight: 900;
+    line-height: 1.5em;
+}
+
+p.plan-price {
+    color: var(--desaturatedBlue);
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.div-plan a {
+    font-size: 0.9em;
+    font-weight: 700;
+    color: var(--brightBlue);
+}
+
+.div-plan a:hover {
+    color: var(--buttonHover);
+}
+
+.proceed{
+    margin-top: 24px;
+    width: 279px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 15px;
+    background-color: var(--brightBlue);
+    box-shadow: 0 2px 20px var(--buttonHover);
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+}
+
+button.proceed:hover {
+    background-color: var(--buttonHover);
+}
+
+button.cancel {
+    margin-top: 25px;
+
+    border: none;
+    background-color: transparent;
+
+    color: var(--desaturatedBlue);
+    font-size: 14px;
+    font-weight: 900;
+
+    cursor: pointer;
+}
+
+button.cancel:hover {
+    color: var(--darkBlue);
+}
+
+.attribution { font-size: 11px; text-align: center; width: 327px; margin: auto;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 600px) {
+    main {
+        width: 450px;
+        height: 697px;
+    }
+
+    h1 {
+        margin-top: 40px;
+        font-size: 1.75em;
+    }
+
+    p.description {
+        margin-top: 17px;
+        width: 80%;
+        line-height: 1.6em;
+    }
+
+    .div-plan {
+        margin-top: 22px;
+        padding-top: 21px;
+        padding-bottom: 25px;
+    }
+    
+    .div-plan div {
+        padding-right: 90px;
+    }
+    
+    p.selected-plan {
+        font-size: 1.1em;
+    }
+    
+    p.plan-price {
+        font-size: 1.1em;
+    }
+    
+    .proceed{
+        margin-top: 29px;
+        width: 354px;
+        
+        letter-spacing: 0px;
+    }
+
+    button.cancel {
+        margin-top: 34px;
+    
+        font-size: 14px;
+        font-weight: 900;
+    }
+}
