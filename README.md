@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [https://github.com/Pseidu/order-summary-component-main.git](https://github.com/Pseidu/order-summary-component-main.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://pseidu.github.io/order-summary-component-main/)
 
 ## My process
 
