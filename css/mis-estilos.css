@@ -147,9 +147,6 @@ button.cancel:hover {
     color: var(--darkBlue);
 }
 
-.attribution { font-size: 11px; text-align: center; width: 327px; margin: auto;}
-.attribution a { color: hsl(228, 45%, 44%); }
-
 @media screen and (min-width: 600px) {
     main {
         width: 450px;
